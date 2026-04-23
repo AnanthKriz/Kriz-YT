@@ -1,92 +1,122 @@
-🚀 KRIZ YT
+<h1 align="center">🚀 KRIZ YT</h1>
 
-⚡ Fast, lightweight YouTube video & audio downloader powered by Python
+<p align="center">
+  <b>Fast, minimal YouTube downloader for people who hate bloated tools</b>
+</p>
 
-📌 Overview
+<p align="center">
+  <img src="https://img.shields.io/github/stars/AnanthKriz/YT.py?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/AnanthKriz/YT.py?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/python-3.x-blue?style=for-the-badge" />
+</p>
 
-KRIZ YT is a powerful and easy-to-use YouTube downloader built with Python.
-It allows users to download videos, playlists, and extract audio in high quality directly from the terminal.
+<hr/>
 
-Designed for speed, simplicity, and automation.
+<h2>⚡ What is KRIZ YT?</h2>
 
-✨ Features
-🎥 Download YouTube videos in multiple resolutions
-🎵 Extract high-quality audio (MP3)
-📂 Playlist support
-⚡ Fast and lightweight
-🖥️ CLI-based (simple commands)
-🔧 Easy integration into bots / automation scripts
-🛠️ Tech Stack
-Python 3
-yt-dlp / youtube-dl backend
-FFmpeg (for audio/video processing)
-📦 Installation
-1️⃣ Clone the repository
-git clone https://github.com/AnanthKriz/ytdl-py.git
-cd ytdl-py
-2️⃣ Create virtual environment (recommended)
-python -m venv venv
+<p>
+KRIZ YT is a small Python tool built to do one thing properly — download videos and audio from YouTube 
+without dragging in heavy apps or messy interfaces.
+</p>
 
-Activate it:
+<p>
+No UI. No clutter. Just pass a link and get your file.
+</p>
 
-Windows
+<hr/>
 
-venv\Scripts\activate
+<h2>⚡ Why this exists</h2>
 
-Linux / Mac
+<ul>
+  <li>Overloaded tools with useless features</li>
+  <li>Slow and clunky apps</li>
+  <li>Hard to integrate into scripts</li>
+</ul>
 
-source venv/bin/activate
-3️⃣ Install dependencies
-pip install -r requirements.txt
-4️⃣ Install FFmpeg (Required)
+<p>
+KRIZ YT keeps things simple, fast, and developer-friendly.
+</p>
 
-Download and install FFmpeg:
+<hr/>
 
-Windows → https://ffmpeg.org/download.html
-Linux:
+<h2>🔗 Repository</h2>
+
+<p>
+<a href="https://github.com/AnanthKriz/YT.py.git">
+https://github.com/AnanthKriz/YT.py.git
+</a>
+</p>
+
+<hr/>
+
+<h2>🧠 Features</h2>
+
+<ul>
+  <li>🎥 Download videos (best quality)</li>
+  <li>🎧 Extract audio (MP3)</li>
+  <li>📂 Playlist support</li>
+  <li>🤖 Bot-ready (WhatsApp / Telegram)</li>
+  <li>⚡ Fast & minimal</li>
+</ul>
+
+<hr/>
+
+<h2>⚙️ Setup</h2>
+
+<pre>
+git clone https://github.com/AnanthKriz/YT.py.git && cd YT.py && pip install -r requirements.txt
+</pre>
+
+<p><b>Install FFmpeg:</b></p>
+
+<pre>
 sudo apt install ffmpeg
-▶️ Usage
-Download a video
-python ytdl.py <video_url>
-Download audio only (MP3)
-python ytdl.py <video_url> --audio
-Download playlist
-python ytdl.py <playlist_url> --playlist
-⚙️ Example
-python ytdl.py https://youtube.com/watch?v=example
-📁 Project Structure
-ytdl-py/
-│── ytdl.py           # Main script
-│── requirements.txt  # Dependencies
-│── README.md
-🧪 Development Setup
-pip install -e .
+</pre>
 
-Run:
+<hr/>
 
-python ytdl.py
-🛡️ Disclaimer
+<h2>🚀 Usage</h2>
 
-This project is for educational purposes only.
-Downloading copyrighted content without permission may violate YouTube's terms of service.
+<pre>
+python ytdl.py &lt;url&gt;
+</pre>
 
-🤝 Contributing
+<p>Audio only:</p>
 
-Pull requests are welcome!
+<pre>
+python ytdl.py &lt;url&gt; --audio
+</pre>
 
-Fork the repo
-Create a new branch
-Commit your changes
-Open a PR
-📄 License
+<hr/>
 
-MIT License
+<h2>🤖 Use Cases</h2>
 
-👨‍💻 Author
+<ul>
+  <li>WhatsApp bots</li>
+  <li>Telegram bots</li>
+  <li>Automation scripts</li>
+  <li>Backend tools</li>
+</ul>
 
-KRIZ BOT INC.
-GitHub: https://github.com/AnanthKriz
+<hr/>
 
-⭐ Support
+<h2>⚠️ Disclaimer</h2>
 
-If you like this project, give it a ⭐ on GitHub!
+<p>
+Use responsibly. Respect content creators and platform policies.
+</p>
+
+<hr/>
+
+<h2>👤 Author</h2>
+
+<p>
+Built by <b>KRIZ</b><br/>
+<a href="https://github.com/AnanthKriz">GitHub Profile</a>
+</p>
+
+<hr/>
+
+<p align="center">
+⭐ Star this repo if it helped you
+</p>
